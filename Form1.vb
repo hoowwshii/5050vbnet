@@ -1,13 +1,13 @@
 ﻿Public Class Form1
     Dim univ As Integer
-    Dim balance As Integer
+    Dim balance As Double
     Public usersync, usergroup As String
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         usersync = login.usersync
         usergroup = login.groupsync
         Label2.Text = usersync & "@" & usergroup
         balance = login.userbalance
-        Label6.Text = balance
+        Label6.Text = "Balance : " & balance
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -43,14 +43,16 @@
         End If
         If number = univ Then
             TextBox1.Text = "Damn, menang"
-            balance = balance + (bet * 2%)
-            Label6.Text = balance
-            Label7.Text = "+" & (bet * 2%)
+            balance = balance + (bet * 0.2)
+            Label6.Text = "Balance : " & balance
+            Label7.Text = "+" & (bet * 0.2)
+            Label7.ForeColor = Color.Green
         ElseIf number <> univ Or number = 2 Then
             TextBox1.Text = "lol kalah"
             balance = balance - bet
-            Label6.Text = balance
+            Label6.Text = "Balance : " & balance
             Label7.Text = "-" & bet
+            Label7.ForeColor = Color.Red
         End If
     End Sub
 

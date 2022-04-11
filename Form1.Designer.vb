@@ -41,7 +41,7 @@ Partial Class Form1
         Me.Button1.Font = New System.Drawing.Font("SF Pro Rounded", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(114, 78)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(88, 35)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "++"
         Me.Button1.UseVisualStyleBackColor = True
@@ -49,9 +49,9 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("SF Pro Rounded", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(238, 78)
+        Me.Button2.Location = New System.Drawing.Point(225, 78)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(88, 35)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "--"
         Me.Button2.UseVisualStyleBackColor = True
@@ -77,40 +77,40 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Label1.Location = New System.Drawing.Point(111, 128)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(110, 128)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(58, 17)
+        Me.Label1.Size = New System.Drawing.Size(69, 20)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Pilihan :"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("SF Pro Rounded", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("SF Pro Rounded", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(42, 263)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(44, 20)
+        Me.Label3.Size = New System.Drawing.Size(50, 23)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Hasil"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("SF Pro Rounded", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("SF Pro Rounded", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(111, 36)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(55, 20)
+        Me.Label4.Size = New System.Drawing.Size(63, 23)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Pilihan"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("SF Pro Rounded", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("SF Pro Rounded", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(42, 177)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(40, 20)
+        Me.Label5.Size = New System.Drawing.Size(46, 23)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Bet :"
         '
@@ -126,7 +126,7 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("SF Pro Rounded", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(524, 97)
+        Me.Label6.Location = New System.Drawing.Point(469, 104)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(86, 24)
         Me.Label6.TabIndex = 10
@@ -146,7 +146,7 @@ Partial Class Form1
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("SF Pro Rounded", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(572, 128)
+        Me.Label7.Location = New System.Drawing.Point(542, 131)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(27, 17)
         Me.Label7.TabIndex = 12
