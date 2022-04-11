@@ -11,6 +11,7 @@
 
     Public Property usersync As String
     Public Property groupsync As String
+    Public Property userbalance As Integer
 
     Public Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         root.username = "root"
@@ -24,12 +25,22 @@
         usery.group = "okana-keren"
         usery.balance = 12243299
         ' Dim usersync, groupsync As New Form1
+        usersync = TextBox2.Text
+        groupsync = TextBox1.Text
         If TextBox2.Text = root.username And TextBox1.Text = root.group Then
+            userbalance = root.balance
             Form1.ShowDialog()
 
         End If
-        usersync = TextBox2.Text
-        groupsync = TextBox1.Text
+        If TextBox2.Text = userx.username And TextBox1.Text = userx.group Then
+            userbalance = userx.balance
+            Form1.ShowDialog()
+        End If
+        If TextBox2.Text = usery.username And TextBox1.Text = usery.group Then
+            userbalance = usery.balance
+            Form1.ShowDialog()
+        End If
+
     End Sub
 
 End Class
